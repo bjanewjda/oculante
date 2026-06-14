@@ -38,7 +38,7 @@ pub enum Message {
 
 impl Message {
     pub fn info(m: &str) -> Self {
-        Self::Info(m.into())
+        Self::Info(m.into()
     }
     pub fn warn(m: &str) -> Self {
         Self::Warning(m.into())
