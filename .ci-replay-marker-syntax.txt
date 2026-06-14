@@ -1,0 +1,3 @@
+# CI replay marker for syntax/cargo check
+feature_branch: replay-1a6e9407
+workflow: .github/workflows/check_netbsd_minimal.yml
